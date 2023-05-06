@@ -2,13 +2,6 @@
 
 As estruturas de repetição permitem que um bloco de código seja executado repetidamente até que uma determinada condição seja satisfeita. 
 
-
-### For
-É uma estrutura de repetição que consiste em três partes: a inicialização, a condição e a expressão de incremento. É usado quando o número de iterações é conhecido antecipadamente.
-
-![image](https://user-images.githubusercontent.com/122856066/236617825-3b15c285-edd1-4b05-98bc-d98841f57997.png)
-
-
 ### While
 É uma estrutura de repetição que testa a condição antes de cada iteração e continua executando o bloco de código enquanto a condição for verdadeira. É usado quando não se sabe antecipadamente quantas vezes o bloco de código deve ser repetido.
 
@@ -19,6 +12,12 @@ As estruturas de repetição permitem que um bloco de código seja executado rep
 É semelhante ao "while", mas testa a condição no final de cada iteração, garantindo que o bloco de código seja executado pelo menos uma vez.
 
 ![image](https://user-images.githubusercontent.com/122856066/236617498-dd47501f-a6ba-4a61-8f80-fe404bdc6b0a.png)
+
+
+### For
+É uma estrutura de repetição que consiste em três partes: a inicialização, a condição e a expressão de incremento. É usado quando o número de iterações é conhecido antecipadamente.
+
+![image](https://user-images.githubusercontent.com/122856066/236617825-3b15c285-edd1-4b05-98bc-d98841f57997.png)
 
 ### For Each
 
