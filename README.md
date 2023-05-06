@@ -33,4 +33,5 @@ Obs. Uma diferença importante entre Break e continue é que, o Break pode ser u
 ### Arrays
 
 Um array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
+É preciso dizer quantos elementos terá este array.
 ![image](https://user-images.githubusercontent.com/122856066/236619338-377cf4b1-a369-4ab0-a525-5ef1dd0e1c44.png)
