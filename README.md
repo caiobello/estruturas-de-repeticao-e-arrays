@@ -29,3 +29,8 @@ Usada para interromper a execução do loop imediatamente de forma abrupta e con
 ### Continue
 Usada para interromper a execução atual do loop e continuar a próxima iteração. É útil quando se deseja pular uma iteração específica, sem interromper completamente o loop.
 Obs. Uma diferença importante entre Break e continue é que, o Break pode ser utilizado fora da estrutura de repetição, ja o continue só pode ser utilizado dentro da estrutura de repetição.
+
+### Arrays
+
+Um array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo.
+![image](https://user-images.githubusercontent.com/122856066/236619338-377cf4b1-a369-4ab0-a525-5ef1dd0e1c44.png)
