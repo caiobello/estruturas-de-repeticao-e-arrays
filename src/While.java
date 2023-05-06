@@ -4,7 +4,7 @@ public class While {
         int i = 0;
         while (i < 10) { //Expressao
             System.out.println(i); //Sentenca
-            i++;
+            i++; //operacao unaria
           }
     }
 }
