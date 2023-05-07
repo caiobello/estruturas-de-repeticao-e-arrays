@@ -10,22 +10,37 @@ Tabuada de 5:
 ...
 5 X 10 = 50
 */
+/**
+
+ExLoop5_Tabuada é uma classe que recebe um número inteiro informado pelo usuário
+e realiza a tabuada do número informado, exibindo o resultado na tela.
+A tabuada é exibida utilizando um loop for que percorre os números de 1 a 10
+e realiza o cálculo da multiplicação da tabuada informada pelo número do loop.
+@author Caio Bello
+@version 1.0
+@since 2023-05-07
+*/
 
 import java.util.Scanner;
 
 public class ExLoop5_Tabuada {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+    // Solicita que o usuário informe a tabuada que deseja obter
+    System.out.println("Tabuada: ");
 
-        System.out.println("Tabuada: ");
-        int tabuada = scan.nextInt();
+    // Lê o número informado pelo usuário
+    int tabuada = scan.nextInt();
 
-        System.out.println("Tabuada de " + tabuada);
+    // Exibe a tabuada que será calculada
+    System.out.println("Tabuada de " + tabuada);
 
-        for( int i = 1; i <= 10 ; i++ ) {
-            System.out.println(tabuada + " X " + i + " = " + (tabuada*i));
-        }
-        
+    // Loop for que percorre os números de 1 a 10 e realiza o cálculo da multiplicação
+    for( int i = 1; i <= 10 ; i++ ) {
+
+        // Exibe a operação e o resultado da multiplicação
+        System.out.println(tabuada + " X " + i + " = " + (tabuada*i));
     }
     
+}
 }
